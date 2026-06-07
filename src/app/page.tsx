@@ -1,11 +1,28 @@
 import Link from 'next/link'
-import Spline from '@splinetool/react-spline/next'
+import TheConnectionCanvas from '@/components/TheConnectionCanvas'
+// import Spline from '@splinetool/react-spline/next'
 
 export default function Home() {
   return (
-    <main className="relative w-screen h-screen overflow-hidden">
+    <main className="relative w-screen h-screen overflow-hidden bg-[#08070E]">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/HQwrC9GIf8l1hbpg/scene.splinecode" />
+        {/* <Spline scene="https://prod.spline.design/HQwrC9GIf8l1hbpg/scene.splinecode" /> */}
+        <TheConnectionCanvas />
+      </div>
+
+      <div className="absolute left-[20%] top-[65%] -translate-y-1/2 flex flex-col gap-4">
+        <h1
+          className="text-[72px] leading-none font-semibold text-text tracking-tight"
+          style={{ fontFamily: 'var(--font-fraunces)' }}
+        >
+          Relody
+        </h1>
+        <p
+          className="text-[26px] leading-snug text-text2"
+          style={{ fontFamily: 'var(--font-fraunces)' }}
+        >
+          Your life set to music.
+        </p>
       </div>
 
       {/* <div className="absolute bottom-16 inset-x-0 flex justify-center px-6">
@@ -27,8 +44,14 @@ export default function Home() {
         </a>
       </div> */}
 
-      <div className="absolute bottom-6 inset-x-0 flex flex-col items-center gap-3">
-        <div className="flex items-center gap-6">
+      <div className="absolute bottom-6 inset-x-0 flex flex-col items-center gap-3 px-6">
+        <div className="flex items-center gap-6 flex-wrap justify-center">
+          <Link
+            href="/features"
+            className="text-xs text-text3 hover:text-text2 transition-colors"
+          >
+            Features
+          </Link>
           <Link
             href="/privacy-policy"
             className="text-xs text-text3 hover:text-text2 transition-colors"
