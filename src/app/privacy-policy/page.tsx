@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-sm text-text3">
-            Effective date: 2026-04-29 · Relody by Denys Merkulov
+            Effective date: 2026-06-07 · Relody by Denys Merkulov
           </p>
         </header>
 
@@ -44,67 +44,194 @@ export default function PrivacyPolicy() {
           <section>
             <p className="text-text2">
               This privacy policy applies to the{' '}
-              <strong className="text-text">Relody</strong> app (hereby referred
-              to as "Application") for mobile devices, created by Denys Merkulov
-              (hereby referred to as "Service Provider") as a free service. This
-              service is intended for use "AS IS".
+              <strong className="text-text">Relody </strong> app (hereby
+              referred to as &quot;Application&quot;) for mobile devices,
+              created by Denys Merkulov (hereby referred to as &quot;Service
+              Provider&quot;) as a free service. This service is intended for
+              use &quot;AS IS&quot;. The Service Provider is registered with the
+              Information Commissioner&apos;s Office (ICO) under registration
+              number <strong className="text-text">ZXXXXXXX</strong>.
             </p>
           </section>
 
           <section>
             <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
-              Information Collection and Use
+              Information We Collect
             </h2>
             <p className="text-text2 mb-3">
-              The Application collects information when you download and use it.
-              This information may include:
+              The Application collects the following categories of information:
             </p>
+
+            <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
+              Account &amp; Identity
+            </h3>
             <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
-              <li>Your device's Internet Protocol address (e.g. IP address)</li>
+              <li>Email address and display name (provided during sign-up)</li>
+              <li>Profile photo (if uploaded)</li>
               <li>
-                The pages of the Application that you visit, the time and date
-                of your visit, and time spent on those pages
+                Authentication credentials managed by Firebase Authentication,
+                including Google or Apple sign-in tokens where applicable
               </li>
-              <li>The total time spent on the Application</li>
-              <li>The operating system you use on your mobile device</li>
             </ul>
-            <p className="text-text2 mb-3">
-              The Application does not gather precise information about the
-              location of your mobile device.
-            </p>
-            <p className="text-text2 mb-3">
-              The Application does not use Artificial Intelligence (AI)
-              technologies to process your data or provide features.
-            </p>
-            <p className="text-text2 mb-3">
-              The Service Provider may use the information you provided to
-              contact you from time to time to provide important information,
-              required notices, and marketing promotions.
-            </p>
-            <p className="text-text2">
-              For a better experience, while using the Application, the Service
-              Provider may require you to provide certain personally
-              identifiable information, including but not limited to your email
-              address and name. This information will be retained and used as
-              described in this privacy policy.
+
+            <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
+              Content You Create
+            </h3>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>
+                Names, relationship types, and profile photos of people you add
+                to the Application
+              </li>
+              <li>
+                Occasions and dates you associate with people (e.g. birthdays,
+                anniversaries)
+              </li>
+              <li>
+                Notes — text content and images you attach to notes about people
+              </li>
+              <li>
+                Song moments — songs and descriptions you record as memories
+              </li>
+              <li>
+                Song metadata associated with people: song name, artist, album,
+                album artwork URL, and a link to the song on Spotify
+              </li>
+              <li>Gift messages you send to friends within the Application</li>
+            </ul>
+
+            <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
+              Social &amp; Friends
+            </h3>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>Friend connections you establish with other Relody users</li>
+              <li>
+                A snapshot of your display name and profile photo stored
+                alongside friendship records at the time a friendship is created
+              </li>
+            </ul>
+
+            <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
+              Spotify Integration (optional)
+            </h3>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>
+                Your Spotify user ID, stored to enable playlist creation on your
+                behalf
+              </li>
+              <li>
+                Spotify OAuth access and refresh tokens, stored securely on your
+                device only and never transmitted to our servers
+              </li>
+              <li>
+                Song search queries you enter, sent to our backend which queries
+                the Spotify API
+              </li>
+            </ul>
+
+            <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
+              Audio — Song Recognition (optional)
+            </h3>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>
+                When you use the song recognition feature, a short audio
+                recording is captured from your microphone and sent to AudD (a
+                third-party song recognition service) to identify the song. This
+                audio is not stored by the Service Provider after the request
+                completes.
+              </li>
+            </ul>
+
+            <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
+              Push Notifications
+            </h3>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>
+                Your device push notification token, stored to deliver
+                connection reminders and occasion alerts
+              </li>
+            </ul>
+
+            <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
+              Usage &amp; Device
+            </h3>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>Your device&apos;s IP address</li>
+              <li>Mobile operating system type and version</li>
+              <li>
+                App usage patterns (pages visited, session duration) collected
+                by Firebase
+              </li>
+            </ul>
+
+            <p className="text-text2 mt-3">
+              The Application does not collect precise geolocation data.
             </p>
           </section>
 
           <section>
             <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
-              Third Party Access
+              How We Use Your Information
+            </h2>
+            <ul className="list-disc pl-5 space-y-1 text-text2">
+              <li>To create and maintain your account</li>
+              <li>
+                To provide the core features of the Application (relationship
+                journaling, song associations, sharing)
+              </li>
+              <li>
+                To send push notifications for connection reminders and upcoming
+                occasions
+              </li>
+              <li>
+                To enable music features: song search and playlist export via
+                Spotify; audio preview lookup via iTunes
+              </li>
+              <li>To recognise songs via the microphone feature</li>
+              <li>
+                To communicate important service updates or respond to support
+                requests
+              </li>
+              <li>To improve and maintain the Application</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
+              Legal Basis for Processing (GDPR)
             </h2>
             <p className="text-text2 mb-3">
-              Only aggregated, anonymized data is periodically transmitted to
-              external services to aid the Service Provider in improving the
-              Application. The Service Provider may share your information with
-              third parties in the ways described in this privacy statement.
+              Where the General Data Protection Regulation (GDPR) applies, the
+              Service Provider processes your personal data under the following
+              legal bases:
             </p>
+            <ul className="list-disc pl-5 space-y-1 text-text2">
+              <li>
+                <strong className="text-text">Performance of a contract</strong>{' '}
+                — account data, content you create, notifications, and core app
+                functionality
+              </li>
+              <li>
+                <strong className="text-text">Legitimate interest</strong> —
+                usage analytics to improve the Application, security monitoring
+              </li>
+              <li>
+                <strong className="text-text">Consent</strong> — Spotify account
+                connection (you can disconnect at any time in Settings); push
+                notification permission (you can revoke at any time in your
+                device settings)
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
+              Third-Party Services
+            </h2>
             <p className="text-text2 mb-3">
-              The Application utilizes third-party services that have their own
-              privacy policies. Below are links to those policies:
+              The Application uses the following third-party services. Each
+              operates under its own privacy policy:
             </p>
-            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+            <ul className="list-disc pl-5 mb-4 space-y-2 text-text2">
               <li>
                 <a
                   href="https://firebase.google.com/support/privacy"
@@ -112,8 +239,70 @@ export default function PrivacyPolicy() {
                   rel="noopener noreferrer"
                   className="text-purple hover:underline"
                 >
-                  Google Analytics for Firebase
-                </a>
+                  Firebase / Google Cloud
+                </a>{' '}
+                — authentication, database, file storage, and cloud functions
+              </li>
+              <li>
+                <a
+                  href="https://policies.google.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple hover:underline"
+                >
+                  Google
+                </a>{' '}
+                — optional Google sign-in
+              </li>
+              <li>
+                <a
+                  href="https://www.apple.com/legal/privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple hover:underline"
+                >
+                  Apple
+                </a>{' '}
+                — optional Sign in with Apple
+              </li>
+              <li>
+                <a
+                  href="https://www.spotify.com/legal/privacy-policy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple hover:underline"
+                >
+                  Spotify
+                </a>{' '}
+                — music search and playlist creation; track search queries are
+                sent to our backend which calls the Spotify API using
+                application-level credentials (no personal Spotify account
+                required for search)
+              </li>
+              <li>
+                <a
+                  href="https://www.apple.com/legal/privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple hover:underline"
+                >
+                  Apple / iTunes
+                </a>{' '}
+                — the iTunes Search API is queried automatically to fetch audio
+                preview URLs when you save a song; track name and artist are
+                sent as a search query (no account required)
+              </li>
+              <li>
+                <a
+                  href="https://audd.io/privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple hover:underline"
+                >
+                  AudD
+                </a>{' '}
+                — song recognition from audio (only when you use the recognition
+                feature)
               </li>
               <li>
                 <a
@@ -123,72 +312,121 @@ export default function PrivacyPolicy() {
                   className="text-purple hover:underline"
                 >
                   Expo
-                </a>
+                </a>{' '}
+                — push notification delivery and over-the-air app updates
               </li>
             </ul>
             <p className="text-text2 mb-3">
-              The Service Provider may disclose user information:
+              The Service Provider may also disclose your information:
             </p>
             <ul className="list-disc pl-5 space-y-1 text-text2">
+              <li>As required by law or to comply with legal process</li>
               <li>
-                As required by law, such as to comply with a subpoena or similar
-                legal process
+                To protect the rights, property, or safety of the Service
+                Provider, users, or others
               </li>
               <li>
-                When they believe in good faith that disclosure is necessary to
-                protect their rights, protect your safety or the safety of
-                others, investigate fraud, or respond to a government request
-              </li>
-              <li>
-                With trusted service providers who work on their behalf, do not
-                have an independent use of the information disclosed to them,
-                and have agreed to adhere to the rules set forth in this privacy
-                statement
+                To other Relody users only to the extent necessary to provide
+                social features you initiate (e.g. friend requests, gifts)
               </li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
-              Opt-Out Rights
+              Data Retention
             </h2>
+            <p className="text-text2 mb-3">
+              Your data is retained for as long as your account is active. When
+              you delete your account through the Application (Settings → Delete
+              Account), the Service Provider permanently deletes:
+            </p>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>Your account and profile data</li>
+              <li>
+                All people, notes, song moments, and occasions you created
+              </li>
+              <li>All images you uploaded</li>
+              <li>Your friendship connections and sent/received gifts</li>
+              <li>Your push notification token</li>
+            </ul>
             <p className="text-text2">
-              You can stop all collection of information by the Application by
-              uninstalling it. You may use the standard uninstall processes
-              available on your mobile device or via the mobile application
-              marketplace.
+              Note: gift messages you sent to other users, and friendship
+              snapshots stored in other users&apos; accounts, may be retained in
+              those accounts after you delete yours. Profile snapshots captured
+              at the time of friending may persist in a friend&apos;s data even
+              if you later update your profile.
             </p>
           </section>
 
           <section>
             <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
-              Data Retention Policy
+              Your Rights
             </h2>
+            <p className="text-text2 mb-3">
+              Depending on your location, you may have the following rights
+              regarding your personal data:
+            </p>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>
+                <strong className="text-text">Access</strong> — request a copy
+                of the data we hold about you
+              </li>
+              <li>
+                <strong className="text-text">Rectification</strong> — correct
+                inaccurate data (most content can be edited directly in the app)
+              </li>
+              <li>
+                <strong className="text-text">Deletion</strong> — delete your
+                account and all associated data via Settings → Delete Account,
+                or by contacting us
+              </li>
+              <li>
+                <strong className="text-text">Data portability</strong> —
+                request a copy of your data in a machine-readable format by
+                contacting us at{' '}
+                <a
+                  href="mailto:relody.official@gmail.com"
+                  className="text-purple hover:underline"
+                >
+                  relody.official@gmail.com
+                </a>
+              </li>
+              <li>
+                <strong className="text-text">Withdraw consent</strong> —
+                disconnect Spotify in Settings at any time; revoke push
+                notification permission in your device settings at any time
+              </li>
+              <li>
+                <strong className="text-text">Opt out</strong> — you can stop
+                all data collection by uninstalling the Application
+              </li>
+            </ul>
             <p className="text-text2">
-              The Service Provider will retain user-provided data for as long as
-              you use the Application and for a reasonable time thereafter. If
-              you would like your data deleted, please contact us at{' '}
+              UK residents may lodge a complaint with the Information
+              Commissioner&apos;s Office (ICO) at{' '}
               <a
-                href="mailto:relody.official@gmail.com"
+                href="https://ico.org.uk/make-a-complaint/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-purple hover:underline"
               >
-                relody.official@gmail.com
-              </a>{' '}
-              and we will respond within a reasonable time.
+                ico.org.uk
+              </a>
+              . EU/EEA residents may lodge a complaint with their local data
+              protection supervisory authority.
             </p>
           </section>
 
           <section>
             <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
-              Children's Privacy
+              Children&apos;s Privacy
             </h2>
             <p className="text-text2">
-              The Application does not address anyone under the age of 13, and
-              the Service Provider does not knowingly solicit data from or
-              market to children under 13. If it is discovered that a child
-              under 13 has provided personal information, it will be immediately
-              deleted from our servers. If you are a parent or guardian and
-              believe your child has provided us with personal information,
+              The Application is not directed to children under the age of 13,
+              and the Service Provider does not knowingly collect personal
+              information from children under 13. If you are a parent or
+              guardian and believe your child has provided personal information,
               please contact us at{' '}
               <a
                 href="mailto:relody.official@gmail.com"
@@ -196,7 +434,7 @@ export default function PrivacyPolicy() {
               >
                 relody.official@gmail.com
               </a>{' '}
-              so we can take the necessary actions.
+              and any such data will be promptly deleted.
             </p>
           </section>
 
@@ -205,10 +443,13 @@ export default function PrivacyPolicy() {
               Security
             </h2>
             <p className="text-text2">
-              The Service Provider is committed to safeguarding the
-              confidentiality of your information, and provides physical,
-              electronic, and procedural safeguards to protect the information
-              it processes and maintains.
+              The Service Provider implements reasonable technical and
+              organisational measures to protect your data, including encrypted
+              data transmission (HTTPS), Firebase security rules restricting
+              data access to account owners, and secure on-device storage for
+              sensitive credentials such as Spotify tokens. No method of
+              transmission or storage is 100% secure, and the Service Provider
+              cannot guarantee absolute security.
             </p>
           </section>
 
@@ -217,21 +458,11 @@ export default function PrivacyPolicy() {
               Changes to This Policy
             </h2>
             <p className="text-text2">
-              This Privacy Policy may be updated from time to time. The Service
-              Provider will notify you of any changes by updating this page. You
-              are advised to review this Privacy Policy regularly, as continued
-              use of the Application constitutes acceptance of any changes.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
-              Your Consent
-            </h2>
-            <p className="text-text2">
-              By using the Application, you consent to the processing of your
-              information as set forth in this Privacy Policy, as amended from
-              time to time.
+              This Privacy Policy may be updated from time to time. For material
+              changes, the Service Provider will provide notice within the
+              Application or by email at least 14 days before the change takes
+              effect. Continued use of the Application after the effective date
+              constitutes acceptance of the revised policy.
             </p>
           </section>
 
@@ -241,15 +472,15 @@ export default function PrivacyPolicy() {
                 Contact Us
               </h2>
               <p className="text-text2">
-                If you have any questions about this Privacy Policy or our
-                privacy practices, please contact the Service Provider at{' '}
+                For questions about this Privacy Policy, data requests, or to
+                exercise your rights, contact the Service Provider at{' '}
                 <a
                   href="mailto:relody.official@gmail.com"
                   className="text-purple hover:underline"
                 >
                   relody.official@gmail.com
                 </a>
-                .
+                . We aim to respond within 30 days.
               </p>
             </div>
           </section>
