@@ -36,7 +36,7 @@ export default function TermsAndConditions() {
             Terms &amp; Conditions
           </h1>
           <p className="text-sm text-text3">
-            Effective date: 2026-06-07 · Relody by Denys Merkulov
+            Effective date: 2026-06-08 · Relody by Denys Merkulov
           </p>
         </header>
 
@@ -123,6 +123,52 @@ export default function TermsAndConditions() {
 
           <section>
             <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
+              Copyright Infringement (DMCA)
+            </h2>
+            <p className="text-text2 mb-3">
+              The Service Provider respects intellectual property rights. If you
+              believe that content available within the Application infringes
+              your copyright, please send a written notice to{' '}
+              <a
+                href="mailto:relody.official@gmail.com"
+                className="text-purple hover:underline"
+              >
+                relody.official@gmail.com
+              </a>{' '}
+              including:
+            </p>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>
+                Your contact information (name, address, phone number, email)
+              </li>
+              <li>
+                A description of the copyrighted work you claim has been
+                infringed
+              </li>
+              <li>
+                A description of the infringing material and its location within
+                the Application
+              </li>
+              <li>
+                A statement that you have a good faith belief that the use is
+                not authorised by the copyright owner, its agent, or law
+              </li>
+              <li>
+                A statement, made under penalty of perjury, that the information
+                in your notice is accurate and that you are the copyright owner
+                or authorised to act on their behalf
+              </li>
+              <li>Your electronic or physical signature</li>
+            </ul>
+            <p className="text-text2">
+              The Service Provider will investigate valid notices and take
+              appropriate action, which may include removing the infringing
+              content. Repeat infringers may have their accounts terminated.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
               Prohibited Uses
             </h2>
             <p className="text-text2 mb-3">You agree not to:</p>
@@ -164,13 +210,14 @@ export default function TermsAndConditions() {
             <ul className="list-disc pl-5 mb-3 space-y-2 text-text2">
               <li>
                 <a
-                  href="https://www.google.com/analytics/terms/"
+                  href="https://firebase.google.com/terms"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple hover:underline"
                 >
-                  Google Analytics for Firebase
-                </a>
+                  Firebase / Google Cloud Platform
+                </a>{' '}
+                — authentication, database, file storage, and cloud functions
               </li>
               <li>
                 <a
@@ -180,7 +227,8 @@ export default function TermsAndConditions() {
                   className="text-purple hover:underline"
                 >
                   Expo
-                </a>
+                </a>{' '}
+                — push notification delivery and over-the-air app updates
               </li>
               <li>
                 <a
@@ -203,6 +251,18 @@ export default function TermsAndConditions() {
                   Apple / iTunes
                 </a>{' '}
                 — audio preview lookup via the iTunes Search API
+              </li>
+              <li>
+                <a
+                  href="https://audd.io/terms/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple hover:underline"
+                >
+                  AudD
+                </a>{' '}
+                — song recognition from audio (only when you use the recognition
+                feature)
               </li>
               <li>
                 <a

@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-sm text-text3">
-            Effective date: 2026-06-07 · Relody by Denys Merkulov
+            Effective date: 2026-06-08 · Relody by Denys Merkulov
           </p>
         </header>
 
@@ -50,7 +50,7 @@ export default function PrivacyPolicy() {
               Provider&quot;) as a free service. This service is intended for
               use &quot;AS IS&quot;. The Service Provider is registered with the
               Information Commissioner&apos;s Office (ICO) under registration
-              number <strong className="text-text">ZXXXXXXX</strong>.
+              number <strong className="text-text">ZC169182</strong>.
             </p>
           </section>
 
@@ -97,6 +97,12 @@ export default function PrivacyPolicy() {
                 album artwork URL, and a link to the song on Spotify
               </li>
               <li>Gift messages you send to friends within the Application</li>
+              <li>
+                Activity metadata — a brief summary of your most recent note or
+                song moment per person (e.g. a content snippet and timestamp),
+                stored to display relationship recency indicators within the
+                Application
+              </li>
             </ul>
 
             <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
@@ -127,6 +133,12 @@ export default function PrivacyPolicy() {
                 the Spotify API
               </li>
             </ul>
+            <p className="text-text2">
+              Song metadata (titles, artists, album artwork, and Spotify track
+              links) is stored as part of your song moments and melodies.
+              Disconnecting Spotify removes your account credentials but does
+              not delete your saved song content.
+            </p>
 
             <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
               Audio — Song Recognition (optional)
@@ -221,6 +233,49 @@ export default function PrivacyPolicy() {
                 device settings)
               </li>
             </ul>
+          </section>
+
+          <section>
+            <h2 className="text-[1.05rem] font-semibold text-text mb-2.5 pb-2 border-b border-glass-border">
+              California Residents (CCPA)
+            </h2>
+            <p className="text-text2 mb-3">
+              If you are a California resident, you have the following rights
+              under the California Consumer Privacy Act (CCPA):
+            </p>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>
+                <strong className="text-text">Right to Know</strong> — request
+                disclosure of the categories and specific pieces of personal
+                information we have collected about you, the sources, the
+                purposes, and the third parties with whom it is shared
+              </li>
+              <li>
+                <strong className="text-text">Right to Delete</strong> — request
+                deletion of personal information we have collected from you,
+                subject to certain exceptions
+              </li>
+              <li>
+                <strong className="text-text">Right to Opt-Out</strong> — the
+                Service Provider does not sell your personal information to third
+                parties and has not done so in the preceding 12 months
+              </li>
+              <li>
+                <strong className="text-text">Right to Non-Discrimination</strong>{' '}
+                — you will not receive discriminatory treatment for exercising
+                your CCPA rights
+              </li>
+            </ul>
+            <p className="text-text2">
+              To exercise these rights, contact us at{' '}
+              <a
+                href="mailto:relody.official@gmail.com"
+                className="text-purple hover:underline"
+              >
+                relody.official@gmail.com
+              </a>
+              . We will respond within 45 days of a verifiable request.
+            </p>
           </section>
 
           <section>
