@@ -434,7 +434,9 @@ export default function PrivacyPolicy() {
               </li>
               <li>
                 <strong className="text-text">Data portability</strong> —
-                request a copy of your data in a machine-readable format by
+                download a copy of all your data (profile, people, notes, song
+                moments, and more) in JSON format directly from the app via
+                Settings → Download My Data. You may also request a copy by
                 contacting us at{' '}
                 <a
                   href="mailto:relody.official@gmail.com"
