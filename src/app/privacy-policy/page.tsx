@@ -169,10 +169,6 @@ export default function PrivacyPolicy() {
             <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
               <li>Your device&apos;s IP address</li>
               <li>Mobile operating system type and version</li>
-              <li>
-                App usage patterns (pages visited, session duration) collected
-                by Firebase
-              </li>
             </ul>
 
             <p className="text-text2 mt-3">
