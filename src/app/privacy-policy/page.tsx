@@ -98,6 +98,12 @@ export default function PrivacyPolicy() {
               </li>
               <li>Gift messages you send to friends within the Application</li>
               <li>
+                Content reports you submit — if you report a gift message as
+                inappropriate, we store the report reason alongside the
+                identifiers of the reporter and the reported content, used
+                solely for moderation purposes
+              </li>
+              <li>
                 Activity metadata — a brief summary of your most recent note or
                 song moment per person (e.g. a content snippet and timestamp),
                 stored to display relationship recency indicators within the

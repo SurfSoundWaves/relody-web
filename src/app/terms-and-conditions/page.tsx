@@ -115,9 +115,15 @@ export default function TermsAndConditions() {
                 otherwise objectionable material
               </li>
             </ul>
-            <p className="text-text2">
+            <p className="text-text2 mb-3">
               The Service Provider reserves the right to remove User Content
               that violates these terms.
+            </p>
+            <p className="text-text2">
+              If you receive a gift message that you believe is spam, harassing,
+              or otherwise inappropriate, you can report it using the Report
+              option on the gift screen. We will review reported content and may
+              take action including removing content or suspending accounts.
             </p>
           </section>
 
