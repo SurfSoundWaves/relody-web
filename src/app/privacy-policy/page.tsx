@@ -510,6 +510,14 @@ export default function PrivacyPolicy() {
               transmission or storage is 100% secure, and the Service Provider
               cannot guarantee absolute security.
             </p>
+            <p className="text-text2 mt-3">
+              The Application uses Apple App Attest and Google Play Integrity
+              (via Firebase App Check) to verify that requests to our backend
+              come from a genuine, unmodified copy of the Application. This
+              may share device-level integrity signals with Apple or Google;
+              the Service Provider does not receive or store any additional
+              personal data as part of this process.
+            </p>
           </section>
 
           <section>
