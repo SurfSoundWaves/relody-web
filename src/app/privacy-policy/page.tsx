@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-sm text-text3">
-            Effective date: 2026-06-08 · Relody by Denys Merkulov
+            Effective date: 2026-10-20 · Relody by Denys Merkulov
           </p>
         </header>
 
@@ -175,6 +175,13 @@ export default function PrivacyPolicy() {
             <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
               <li>Your device&apos;s IP address</li>
               <li>Mobile operating system type and version</li>
+              <li>
+                Performance and diagnostic data: app startup and screen loading
+                times, the names of screens you open (without their content),
+                app version and build, device model, approximate country, a
+                random identifier for your app installation (not linked to your
+                account), and reports of app errors
+              </li>
             </ul>
 
             <p className="text-text2 mt-3">
@@ -204,6 +211,10 @@ export default function PrivacyPolicy() {
               <li>
                 To communicate important service updates or respond to support
                 requests
+              </li>
+              <li>
+                To monitor and improve the Application&apos;s performance and
+                stability
               </li>
               <li>To improve and maintain the Application</li>
             </ul>
@@ -370,7 +381,9 @@ export default function PrivacyPolicy() {
                 >
                   Expo
                 </a>{' '}
-                — push notification delivery and over-the-air app updates
+                — push notification delivery, over-the-air app updates, and app
+                performance monitoring (EAS Observe), which receives the
+                performance and diagnostic data described above
               </li>
             </ul>
             <p className="text-text2 mb-3">
@@ -413,6 +426,11 @@ export default function PrivacyPolicy() {
               those accounts after you delete yours. Profile snapshots captured
               at the time of friending may persist in a friend&apos;s data even
               if you later update your profile.
+            </p>
+            <p className="text-text2 mt-3">
+              Performance and diagnostic data is not linked to your account, so
+              it is not part of account deletion. It is held by Expo and retained
+              under Expo&apos;s privacy policy.
             </p>
           </section>
 

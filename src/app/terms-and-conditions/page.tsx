@@ -36,7 +36,7 @@ export default function TermsAndConditions() {
             Terms &amp; Conditions
           </h1>
           <p className="text-sm text-text3">
-            Effective date: 2026-06-08 · Relody by Denys Merkulov
+            Effective date: 2026-10-20 · Relody by Denys Merkulov
           </p>
         </header>
 
@@ -234,7 +234,8 @@ export default function TermsAndConditions() {
                 >
                   Expo
                 </a>{' '}
-                — push notification delivery and over-the-air app updates
+                — push notification delivery, over-the-air app updates, and app
+                performance monitoring
               </li>
               <li>
                 <a
