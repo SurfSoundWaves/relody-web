@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["9Q9JG9A296.space.forxtu.relody", "9Q9JG9A296.space.forxtu.relody.dev"],
+        "components": [{ "/": "/gifts/*" }]
+      }
+    ]
+  }
+}

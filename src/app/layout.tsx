@@ -17,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://relody.forxtu.space"),
   title: "Relody — Every person in your life has a song",
   description:
     "Relody is the relationship journal that keeps your connections alive through music. Give the people you love their own melody.",

@@ -400,6 +400,12 @@ export default function PrivacyPolicy() {
                 social features you initiate (e.g. friend requests, gifts)
               </li>
             </ul>
+            <p className="text-text2 mt-3">
+              Gift links: when you send a song through a gift link, the link
+              shows your first name, profile photo, the chosen song and your
+              note to anyone who has the link, with no sign-in required, until
+              the gift is claimed, cancelled, or expires after 30 days.
+            </p>
           </section>
 
           <section>
