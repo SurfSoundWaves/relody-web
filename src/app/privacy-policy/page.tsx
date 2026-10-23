@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-sm text-text3">
-            Effective date: 2026-10-20 · Relody by Denys Merkulov
+            Effective date: 2026-10-23 · Relody by Denys Merkulov
           </p>
         </header>
 
@@ -160,6 +160,29 @@ export default function PrivacyPolicy() {
             </ul>
 
             <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
+              Contacts — Find Friends (optional)
+            </h3>
+            <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
+              <li>
+                If you allow access to your contacts, the Application reads
+                them on your device. Email addresses are converted into
+                one-way hashes on your device before being sent to the Service
+                Provider, which compares them with Relody accounts and returns
+                any matches. The hashes are not stored after the request
+                completes, and names and phone numbers never leave your device.
+              </li>
+              <li>
+                When you invite a contact, the Application opens your own
+                Messages app with a song link; the message is sent by you from
+                your device, not by the Service Provider.
+              </li>
+              <li>
+                You can stop others finding you this way at any time with
+                &quot;Let friends find me from their contacts&quot; in Settings.
+              </li>
+            </ul>
+
+            <h3 className="text-[0.95rem] font-semibold text-text mb-1.5 mt-4">
               Push Notifications
             </h3>
             <ul className="list-disc pl-5 mb-3 space-y-1 text-text2">
@@ -208,6 +231,10 @@ export default function PrivacyPolicy() {
                 Spotify; audio preview lookup via iTunes
               </li>
               <li>To recognise songs via the microphone feature</li>
+              <li>
+                To show which of your contacts already use Relody, if you allow
+                contacts access
+              </li>
               <li>
                 To communicate important service updates or respond to support
                 requests
